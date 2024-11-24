@@ -1,0 +1,130 @@
+<!--
+Copyright (C) 2023  Qingzhu
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>跨年倒计时</title>
+<style>
+  @font-face {
+    font-family: 'PangMenZhengDaoBiaoTiTi';
+    src: url('pang_men_zheng_dao_biao_ti_ti_3.0.ttf') format('truetype');
+  }
+  body {
+    font-family: 'PangMenZhengDaoBiaoTiTi', 'Arial', sans-serif;
+    background: linear-gradient(135deg, #0f0, #00f);
+    color: white; /* 设置字体颜色为白色 */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 5vw;
+    writing-mode: horizontal-tb;
+    text-orientation: sideways;
+    margin-bottom: 2rem;
+  }
+  #countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  #countdown .time {
+    font-size: 5vw;
+    margin: 0 1rem;
+    writing-mode: horizontal-tb;
+    text-orientation: sideways;
+  }
+  #countdown .label {
+    font-size: 2vw;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 10vw;
+    }
+    #countdown .time {
+      font-size: 8vw;
+    }
+    #countdown .label {
+      font-size: 3vw;
+    }
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 10px;
+    z-index: 1000;
+  }
+}
+</style>
+</head>
+<body>
+  <h1>新年倒计时</h1>
+  <div id="countdown">
+    <div class="time" id="days"></div>
+    <div class="label">天</div>
+    <div class="time" id="hours"></div>
+    <div class="label">小时</div>
+    <div class="time" id="minutes"></div>
+    <div class="label">分钟</div>
+    <div class="time" id="seconds"></div>
+    <div class="label">秒</div>
+  </div>
+  <div class="footer">
+    COPYRIGHT © 2024 QINGZHU ALL RIGHTS RESERVED.<br>
+    <a href="http://www.beian.miit.gov.cn" target="_blank">ICP备案号</a>
+    <a href="https://beian.mps.gov.cn/#/query/webSearch?code=14010902001713" target="_blank">
+      <img src="https://img.qingzhusx.cn/app/thumb.php?img=/i/2024/11/05/zo9da7.png" alt="beian" style="height: 15px; width: auto; margin-right: 0px;"/>
+    </a>
+    <a href="https://beian.mps.gov.cn/#/query/webSearch?code=       " target="_blank">
+      <span>公安备案号</span>
+  </div>
+
+  <script>
+    const endTime = new Date('2025-02-10T24:00:00Z'); 
+
+    function updateTimer() {
+      const now = new Date().getTime();
+      const timeLeft = endTime - now;
+
+      const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((timeLeft % (1000 * 60)) / 1000);
+
+      document.getElementById('days').innerText = days;
+      document.getElementById('hours').innerText = hours.toString().padStart(2, '0');
+      document.getElementById('minutes').innerText = minutes.toString().padStart(2, '0');
+      document.getElementById('seconds').innerText = seconds.toString().padStart(2, '0');
+
+      if (timeLeft < 0) {
+        clearInterval(timer);
+        document.getElementById('countdown').style.display = 'none';
+      }
+    }
+
+    const timer = setInterval(updateTimer, 1000);
+  </script>
+</body>
+</html>
