@@ -1,219 +1,135 @@
-GNU GENERAL PUBLIC LICENSE
-Version 3, 29 June 2007
+以下内容转载自CSDN博客
 
-Copyright © 2007 Free Software Foundation, Inc. <https://fsf.org/>
+GPL 2.0许可证（人话版）
 
-Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.
+版本 2, 1991年6月
 
-Preamble
-The GNU General Public License is a free, copyleft license for software and other kinds of works.
+版权 (C) ：1989, 1991 Free Software Foundation, Inc.
 
-The licenses for most software and other practical works are designed to take away your freedom to share and change the works. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change all versions of a program--to make sure it remains free software for all its users. We, the Free Software Foundation, use the GNU General Public License for most of our software; it applies also to any other work released this way by its authors. You can apply it to your programs, too.
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA
 
-When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for them if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs, and that you know you can do these things.
+你可以复制、发布本许可证，但不能修改本许可证。一个字都不能动。
 
-To protect your rights, we need to prevent others from denying you these rights or asking you to surrender the rights. Therefore, you have certain responsibilities if you distribute copies of the software, or if you modify it: responsibilities to respect the freedom of others.
+开场白
 
-For example, if you distribute copies of such a program, whether gratis or for a fee, you must pass on to the recipients the same freedoms that you received. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights.
+我们设计GPL协议，目的很简单，就是给程序员自由，给用户自由！
 
-Developers that use the GNU GPL protect your rights with two steps: (1) assert copyright on the software, and (2) offer you this License giving you legal permission to copy, distribute and/or modify it.
+我们FSF的软件大都用这个协议，但并不是说只有我们能用，任何人都可以用这个协议！
 
-For the developers' and authors' protection, the GPL clearly explains that there is no warranty for this free software. For both users' and authors' sake, the GPL requires that modified versions be marked as changed, so that their problems will not be attributed erroneously to authors of previous versions.
+我们认为，人应该有这样的自由：
 
-Some devices are designed to deny users access to install or run modified versions of the software inside them, although the manufacturer can do so. This is fundamentally incompatible with the aim of protecting users' freedom to change the software. The systematic pattern of such abuse occurs in the area of products for individuals to use, which is precisely where it is most unacceptable. Therefore, we have designed this version of the GPL to prohibit the practice for those products. If such problems arise substantially in other domains, we stand ready to extend this provision to those domains in future versions of the GPL, as needed to protect the freedom of users.
+每个人都有分发软件的自由，而且可以为此收费。
 
-Finally, every program is threatened constantly by software patents. States should not allow patents to restrict development and use of software on general-purpose computers, but in those that do, we wish to avoid the special danger that patents applied to a free program could make it effectively proprietary. To prevent this, the GPL assures that patents cannot be used to render the program non-free.
+（译者注：先讲下“分发”的概念，分发就是有人把软件卖给你、寄给你、发给你、拷给你、让你下载、帮你安装等等，只要你从他那儿搞到软件，就算他分发给你了。有时候会用“发布”一词，请视为等同。）
 
-The precise terms and conditions for copying, distribution and modification follow.
+（译者注：本文所讲的“程序”、“软件”、“作品”、“东西”、“玩意”，在绝大多数情况下，指的都是一个东西：自由软件，尤指使用GPL的软件。）
 
-TERMS AND CONDITIONS
-0. Definitions.
-“This License” refers to version 3 of the GNU General Public License.
+每个人有获取源码的自由，人们要能得到软件的源码！
 
-“Copyright” also means copyright-like laws that apply to other kinds of works, such as semiconductor masks.
+为什么要有源码？
 
-“The Program” refers to any copyrightable work licensed under this License. Each licensee is addressed as “you”. “Licensees” and “recipients” may be individuals or organizations.
+因为源码让程序员更自由，源码让用户更自由！
 
-To “modify” a work means to copy from or adapt all or part of the work in a fashion requiring copyright permission, other than the making of an exact copy. The resulting work is called a “modified version” of the earlier work or a work “based on” the earlier work.
+如果你懂，你就会懂的。
 
-A “covered work” means either the unmodified Program or a work based on the Program.
+不懂，我也没有时间说服你。
 
-To “propagate” a work means to do anything with it that, without permission, would make you directly or secondarily liable for infringement under applicable copyright law, except executing it on a computer or modifying a private copy. Propagation includes copying, distribution (with or without modification), making available to the public, and in some countries other activities as well.
+每个人有改动源码的自由！
 
-To “convey” a work means any kind of propagation that enables other parties to make or receive copies. Mere interaction with a user through a computer network, with no transfer of a copy, is not conveying.
+就好比你娶个美女，只能看，不能动，那叫什么自由？
 
-An interactive user interface displays “Appropriate Legal Notices” to the extent that it includes a convenient and prominently visible feature that (1) displays an appropriate copyright notice, and (2) tells the user that there is no warranty for the work (except to the extent that warranties are provided), that licensees may convey the work under this License, and how to view a copy of this License. If the interface presents a list of user commands or options, such as a menu, a prominent item in the list meets this criterion.
+每个人都应该知道这些理念，所以，本许可证带着这个开场白，而使用GPL的软件，都带着本许可证，就是为了让你看见。
 
-1. Source Code.
-The “source code” for a work means the preferred form of the work for making modifications to it. “Object code” means any non-source form of a work.
+GPL协议的目的就是要确保做到上面这些。
 
-A “Standard Interface” means an interface that either is an official standard defined by a recognized standards body, or, in the case of interfaces specified for a particular programming language, one that is widely used among developers working in that language.
+每个分发GPL软件的人，都要按照GPL的要求做。
 
-The “System Libraries” of an executable work include anything, other than the work as a whole, that (a) is included in the normal form of packaging a Major Component, but which is not part of that Major Component, and (b) serves only to enable use of the work with that Major Component, or to implement a Standard Interface for which an implementation is available to the public in source code form. A “Major Component”, in this context, means a major essential component (kernel, window system, and so on) of the specific operating system (if any) on which the executable work runs, or a compiler used to produce the work, or an object code interpreter used to run it.
+记住：我们给了你自由，你要把这个自由传递下去。
 
-The “Corresponding Source” for a work in object code form means all the source code needed to generate, install, and (for an executable work) run the object code and to modify the work, including scripts to control those activities. However, it does not include the work's System Libraries, or general-purpose tools or generally available free programs which are used unmodified in performing those activities but which are not part of the work. For example, Corresponding Source includes interface definition files associated with source files for the work, and the source code for shared libraries and dynamically linked subprograms that the work is specifically designed to require, such as by intimate data communication or control flow between those subprograms and other parts of the work.
+最基本的就是要把源码公开！
 
-The Corresponding Source need not include anything that users can regenerate automatically from other parts of the Corresponding Source.
+每个人都应该知道，程序可不是其他商品，写程序已经够费精神了，而且作者也没有收你钱，所以GPL的程序是AS IS的，也就是说作者不会负责任的。如果你修改了别人的程序，你要说明你修改了，这样，你带来的bug，不会影响人家原作者的声誉。
 
-The Corresponding Source for a work in source code form is that same work.
+我们绝不允许将自由软件专有化，你如果基于本程序做了修改，并对修改申请了专利，你就要把这个专利让所有人免费使用，要么你就不要发布。
 
-2. Basic Permissions.
-All rights granted under this License are granted for the term of copyright on the Program, and are irrevocable provided the stated conditions are met. This License explicitly affirms your unlimited permission to run the unmodified Program. The output from running a covered work is covered by this License only if the output, given its content, constitutes a covered work. This License acknowledges your rights of fair use or other equivalent, as provided by copyright law.
+条款和条件
 
-You may make, run and propagate covered works that you do not convey, without conditions so long as your license otherwise remains in force. You may convey covered works to others for the sole purpose of having them make modifications exclusively for you, or provide you with facilities for running those works, provided that you comply with the terms of this License in conveying all material for which you do not control copyright. Those thus making or running the covered works for you must do so exclusively on your behalf, under your direction and control, on terms that prohibit them from making any copies of your copyrighted material outside their relationship with you.
+0.先定义一下：如果一个作品包含本程序的全部或者部分，或者是对本程序做了修改，或者将本程序翻译成其他语言，那么，这个作品就是基于本程序的，也称衍生程****序或衍生作品。
 
-Conveying under any other circumstances is permitted solely under the conditions stated below. Sublicensing is not allowed; section 10 makes it unnecessary.
+（译者注：注意，本文中的“本程序”，就是使用了GPL的程序，本程序发布时是带着本许可证的。）
 
-3. Protecting Users' Legal Rights From Anti-Circumvention Law.
-No covered work shall be deemed part of an effective technological measure under any applicable law fulfilling obligations under article 11 of the WIPO copyright treaty adopted on 20 December 1996, or similar laws prohibiting or restricting circumvention of such measures.
+本协议管的是对本程序的复制、修改和分发。其他的事我不管。比如执行本程序是不受限制的，程序的输出也不受限制，除非输出内容的本身就是本程序的衍生作品。
 
-When you convey a covered work, you waive any legal power to forbid circumvention of technological measures to the extent such circumvention is effected by exercising rights under this License with respect to the covered work, and you disclaim any intention to limit operation or modification of the work as a means of enforcing, against the work's users, your or third parties' legal rights to forbid circumvention of technological measures.
+（译者注：事实上，只要你不分发，只是自己用用，都不会管的，比如你可以随便复制1000份放在你的硬盘上，你也可以随便改，只要你不拿出来传播就好。但如果你哪怕只是发给了小伙伴张三，那就要注意了，你要按GPL的要求做，否则就会违规。除非这个小伙伴和你一个公司而你们正在受公司之命使用或修改本程序。)
 
-4. Conveying Verbatim Copies.
-You may convey verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice; keep intact all notices stating that this License and any non-permissive terms added in accord with section 7 apply to the code; keep intact all notices of the absence of any warranty; and give all recipients a copy of this License along with the Program.
+（译者注：关于程序输出，可以考虑一下这些情景：你使用受GPL保护的软件LibreOffice写了一本书（这就是输出），这本书不受GPL限制；你用Emacs编辑器（GPL的）写了个程序（这就是输出），这个程序不受GPL限制；你用mysql（受GPL保护）做数据库并搭了个网站，这也不受GPL限制。但如果你用LibreOffice、Emacs编辑的是本程序的源码，或者用mysql数据库存储了本程序的源码，那就另当别论了，这你懂吧。）
 
-You may charge any price or no price for each copy that you convey, and you may offer support or warranty protection for a fee.
+\1. 如果你要分发的是一字未改的本程序（你从别人那儿搞到手的），记着必须要在明显的地方，带上本程序的版权声明、免责声明（或称无担保声明）、以及本许可证。而且必须是原封不动的本许可证和免责声明。
 
-5. Conveying Modified Source Versions.
-You may convey a work based on the Program, or the modifications to produce it from the Program, in the form of source code under the terms of section 4, provided that you also meet all of these conditions:
+（你应该知道为什么带这些吧，前面我已经大致说过了，这里再说一遍：第一，你要给原作者留名，人家写自由软件图啥？至少要给人家个名吧！第二，人家也没有收维保费，不能说有点bug还找人家算账，软件不好使，大家自己想办法。第三，要带上我这个GPL协议，要让所有人知道他的权利和义务，更重要的是，让他们看看我的开场白，理解我的初心。）
 
-a) The work must carry prominent notices stating that you modified it, and giving a relevant date.
-b) The work must carry prominent notices stating that it is released under this License and any conditions added under section 7. This requirement modifies the requirement in section 4 to “keep intact all notices”.
-c) You must license the entire work, as a whole, under this License to anyone who comes into possession of a copy. This License will therefore apply, along with any applicable section 7 additional terms, to the whole of the work, and all its parts, regardless of how they are packaged. This License gives no permission to license the work in any other way, but it does not invalidate such permission if you have separately received it.
-d) If the work has interactive user interfaces, each must display Appropriate Legal Notices; however, if the Program has interactive interfaces that do not display Appropriate Legal Notices, your work need not make them do so.
-A compilation of a covered work with other separate and independent works, which are not by their nature extensions of the covered work, and which are not combined with it such as to form a larger program, in or on a volume of a storage or distribution medium, is called an “aggregate” if the compilation and its resulting copyright are not used to limit the access or legal rights of the compilation's users beyond what the individual works permit. Inclusion of a covered work in an aggregate does not cause this License to apply to the other parts of the aggregate.
+你可以因为分发软件的具体行为收成本费。（比如你可以收制作光盘的费用，邮寄的费用，拷贝的费用，但你不能收研发费！你更不能收许可费！总之，你收的钱要说得过去！）
 
-6. Conveying Non-Source Forms.
-You may convey a covered work in object code form under the terms of sections 4 and 5, provided that you also convey the machine-readable Corresponding Source under the terms of this License, in one of these ways:
+你要是能提供维保服务，你可以收维保费。
 
-a) Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by the Corresponding Source fixed on a durable physical medium customarily used for software interchange.
-b) Convey the object code in, or embodied in, a physical product (including a physical distribution medium), accompanied by a written offer, valid for at least three years and valid for as long as you offer spare parts or customer support for that product model, to give anyone who possesses the object code either (1) a copy of the Corresponding Source for all the software in the product that is covered by this License, on a durable physical medium customarily used for software interchange, for a price no more than your reasonable cost of physically performing this conveying of source, or (2) access to copy the Corresponding Source from a network server at no charge.
-c) Convey individual copies of the object code with a copy of the written offer to provide the Corresponding Source. This alternative is allowed only occasionally and noncommercially, and only if you received the object code with such an offer, in accord with subsection 6b.
-d) Convey the object code by offering access from a designated place (gratis or for a charge), and offer equivalent access to the Corresponding Source in the same way through the same place at no further charge. You need not require recipients to copy the Corresponding Source along with the object code. If the place to copy the object code is a network server, the Corresponding Source may be on a different server (operated by you or a third party) that supports equivalent copying facilities, provided you maintain clear directions next to the object code saying where to find the Corresponding Source. Regardless of what server hosts the Corresponding Source, you remain obligated to ensure that it is available for as long as needed to satisfy these requirements.
-e) Convey the object code using peer-to-peer transmission, provided you inform other peers where the object code and Corresponding Source of the work are being offered to the general public at no charge under subsection 6d.
-A separable portion of the object code, whose source code is excluded from the Corresponding Source as a System Library, need not be included in conveying the object code work.
+（译者注：所谓维保，也就是用户软件出故障了，你给人家解决bug，需要版本升级了，你给人家升级，发现安全漏洞了，你给人家补丁，用户不会用了，你给人家培训，这些活，都属于维保。原作者一般是不会干这个的，他更喜欢开发软件。）
 
-A “User Product” is either (1) a “consumer product”, which means any tangible personal property which is normally used for personal, family, or household purposes, or (2) anything designed or sold for incorporation into a dwelling. In determining whether a product is a consumer product, doubtful cases shall be resolved in favor of coverage. For a particular product received by a particular user, “normally used” refers to a typical or common use of that class of product, regardless of the status of the particular user or of the way in which the particular user actually uses, or expects or is expected to use, the product. A product is a consumer product regardless of whether the product has substantial commercial, industrial or non-consumer uses, unless such uses represent the only significant mode of use of the product.
+\2. 如果你要分发的是修改后的本程序（或曰衍生程序），除了上面第1条的要求外，你还要满足以下条件。
 
-“Installation Information” for a User Product means any methods, procedures, authorization keys, or other information required to install and execute modified versions of a covered work in that User Product from a modified version of its Corresponding Source. The information must suffice to ensure that the continued functioning of the modified object code is in no case prevented or interfered with solely because modification has been made.
+a) 对于你修改了的文件，你必须在那个文件上带上明显的修改声明，并附上日期信息。
 
-If you convey an object code work under this section in, or with, or specifically for use in, a User Product, and the conveying occurs as part of a transaction in which the right of possession and use of the User Product is transferred to the recipient in perpetuity or for a fixed term (regardless of how the transaction is characterized), the Corresponding Source conveyed under this section must be accompanied by the Installation Information. But this requirement does not apply if neither you nor any third party retains the ability to install modified object code on the User Product (for example, the work has been installed in ROM).
+b) 哪怕你的软件有一点点含有或来自我的程序，你分发时，就要按照GPL，授权所有人都可免费使用、复制、修改、再分发你这个软件。
 
-The requirement to provide Installation Information does not include a requirement to continue to provide support service, warranty, or updates for a work that has been modified or installed by the recipient, or for the User Product in which it has been modified or installed. Access to a network may be denied when the modification itself materially and adversely affects the operation of the network or violates the rules and protocols for communication across the network.
+c) 如果你修改后的程序在运行时和用户以命令的方式交互，你必须在程序运行的开始，显示版权声明、无担保声明（如果你有担保你就显示担保声明），你要告诉用户分发你程序时的条件，告诉用户如何读取本许可证。（如果本程序不显示这些，那你不需要专门改成这样）。
 
-Corresponding Source conveyed, and Installation Information provided, in accord with this section must be in a format that is publicly documented (and with an implementation available to the public in source code form), and must require no special password or key for unpacking, reading or copying.
+（译者注：比如gdb运行时就会出来一堆这些声明。命令式交互并不仅限于“命令行”交互，完全可以是图形界面的命令式交互甚至是音频的交互，比如用户说：“小某小某”，程序说“在呢”，用户说：“你的许可是什么”，程序说：“我使用GPL许可……”）
 
-7. Additional Terms.
-“Additional permissions” are terms that supplement the terms of this License by making exceptions from one or more of its conditions. Additional permissions that are applicable to the entire Program shall be treated as though they were included in this License, to the extent that they are valid under applicable law. If additional permissions apply only to part of the Program, that part may be used separately under those permissions, but the entire Program remains governed by this License without regard to the additional permissions.
+这些要求是对修改后作品的整体适用的，如果你的作品有一部分可以独立出来并且不是基于本程序的，那你单独发布这部分的时候，不需要遵守本许可证要求。但如果你要放到一块作为整体发布，那就得遵守规定。
 
-When you convey a copy of a covered work, you may at your option remove any additional permissions from that copy, or from any part of it. (Additional permissions may be written to require their own removal in certain cases when you modify the work.) You may place additional permissions on material, added by you to a covered work, for which you have or can give appropriate copyright permission.
+本条的意图，并不是掠夺你写的那部分程序，而是对基于本程序的软件整体，实施控制权。（因为这样，才能给人更多自由！）
 
-Notwithstanding any other provision of this License, for material you add to a covered work, you may (if authorized by the copyright holders of that material) supplement the terms of this License with terms:
+当然，如果一个程序仅仅是和本作品放在同一张光盘上、同一个U盘上、同一块活动硬盘上，而它本身不基于本程序，我们不会要求该程序遵守GPL的。（我们没有这么变态，也不会有人真以为能这样“传染”吧？！）
 
-a) Disclaiming warranty or limiting liability differently from the terms of sections 15 and 16 of this License; or
-b) Requiring preservation of specified reasonable legal notices or author attributions in that material or in the Appropriate Legal Notices displayed by works containing it; or
-c) Prohibiting misrepresentation of the origin of that material, or requiring that modified versions of such material be marked in reasonable ways as different from the original version; or
-d) Limiting the use for publicity purposes of names of licensors or authors of the material; or
-e) Declining to grant rights under trademark law for use of some trade names, trademarks, or service marks; or
-f) Requiring indemnification of licensors and authors of that material by anyone who conveys the material (or modified versions of it) with contractual assumptions of liability to the recipient, for any liability that these contractual assumptions directly impose on those licensors and authors.
-All other non-permissive additional terms are considered “further restrictions” within the meaning of section 10. If the Program as you received it, or any part of it, contains a notice stating that it is governed by this License along with a term that is a further restriction, you may remove that term. If a license document contains a further restriction but permits relicensing or conveying under this License, you may add to a covered work material governed by the terms of that license document, provided that the further restriction does not survive such relicensing or conveying.
+\3. 如果你要分发本程序（或衍生程序）的目标代码或可执行文件，除了满足前面第1条和第2条，还必须满足以下其中一条。
 
-If you add terms to a covered work in accord with this section, you must place, in the relevant source files, a statement of the additional terms that apply to those files, or a notice indicating where to find the applicable terms.
+a) 伴随这个目标代码或可执行文件，你必须提供机器可读的源代码。（要是你给我一本印在书上的源代码，可别怪我不客气。）而且你要使用拷贝软件常用的方式。（你别给我弄到纸带上，你是穿越来的吗？）总之，别耍花样，老老实实交出源码。
 
-Additional terms, permissive or non-permissive, may be stated in the form of a separately written license, or stated as exceptions; the above requirements apply either way.
+b) 或者你这样做，你附上一个书面的报价单，有效期至少三年，收费不能超过成本费。（比如收费只是你制作光盘、制作U盘的费用。这样，用户在这几年内，想买的时候可以买。）
 
-8. Termination.
-You may not propagate or modify a covered work except as expressly provided under this License. Any attempt otherwise to propagate or modify it is void, and will automatically terminate your rights under this License (including any patent licenses granted under the third paragraph of section 11).
+c) 或者，如果你只是转一下手，把你收到的又转给别人，而且不是商业行为（比如只是发给朋友玩玩），那你带上获取源码的信息就可以了（如果是商业行为，你就得给源码，或者弄书面报价单了）。
 
-However, if you cease all violation of this License, then your license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation.
+所谓源代码形式，就是那种最便于修改的形式。对于一个可执行程序，完整的源代码包括其所有模块的源代码、接口定义文件、编译程序的脚本、安装程序的脚本。但是，不包括内核、编译器这些操作系统主要部件的源码，这不是该你负责的部分，除非你的程序就是干这些事的。
 
-Moreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice.
+（总之，提供源码就要提供完整的，而且是便于编译的，即便是编程菜鸟，能应该能按照指示，简单几步就能把源码弄成可执行文件，如果你只是扔来一堆源码，而故意隐藏一些信息或制造一些编译上的难度，那只能说你道德低劣。）
 
-Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License. If your rights have been terminated and not permanently reinstated, you do not qualify to receive new licenses for the same material under section 10.
+如果可执行文件（目标代码）的分发是在特定的地点完成的，那么，在同一地点也应该提供对源码的拷贝。当然，来拷贝可执行文件的人，完全可以选择不拷源码，不能强迫人家非要拷源码。
 
-9. Acceptance Not Required for Having Copies.
-You are not required to accept this License in order to receive or run a copy of the Program. Ancillary propagation of a covered work occurring solely as a consequence of using peer-to-peer transmission to receive a copy likewise does not require acceptance. However, nothing other than this License grants you permission to propagate or modify any covered work. These actions infringe copyright if you do not accept this License. Therefore, by modifying or propagating a covered work, you indicate your acceptance of this License to do so.
+\4. 除了本许可明确允许的方式，你不能复制、修改、分发和再许可本程序。如果你试图干这些事，本许可证授予你的权利将自动终止。但已经从你这里获得了拷贝的人，只要他们遵守规定，他们的授权并不会自动终止。
 
-10. Automatic Licensing of Downstream Recipients.
-Each time you convey a covered work, the recipient automatically receives a license from the original licensors, to run, modify and propagate that work, subject to this License. You are not responsible for enforcing compliance by third parties with this License.
+（译者注：事实上，如果你不分发，只是自己用用，复制、修改的自由还是有的。）
 
-An “entity transaction” is a transaction transferring control of an organization, or substantially all assets of one, or subdividing an organization, or merging organizations. If propagation of a covered work results from an entity transaction, each party to that transaction who receives a copy of the work also receives whatever licenses to the work the party's predecessor in interest had or could give under the previous paragraph, plus a right to possession of the Corresponding Source of the work from the predecessor in interest, if the predecessor has it or can get it with reasonable efforts.
+\5. 你可以不接受本许可证，但不接受你就不能修改和分发本程序（及衍生程序）。所以，你只要干了这些事，就表明你接受了本许可证。
 
-You may not impose any further restrictions on the exercise of the rights granted or affirmed under this License. For example, you may not impose a license fee, royalty, or other charge for exercise of rights granted under this License, and you may not initiate litigation (including a cross-claim or counterclaim in a lawsuit) alleging that any patent claim is infringed by making, using, selling, offering for sale, or importing the Program or any portion of it.
+\6. 每当你发布本程序（或衍生程序）时，收到本程序的人，自动获得本程序原始授权人依本许可证所赋予的权利，你不能添加任何额外的限制。你也不用负责别人是不是按照本许可做。（译者注：由此可知，一旦一个GPL的程序诞生，它的子子孙孙都会是GPL的。）
 
-11. Patents.
-A “contributor” is a copyright holder who authorizes use under this License of the Program or a work on which the Program is based. The work thus licensed is called the contributor's “contributor version”.
+\7. 不管是哪种情况，比如法院判决、专利指控或其他情况，导致你无法遵从本许可证的条件，那也不代表你就可以搞特殊，如果你无法求得两全，那你就只能放弃发布。比如：如果一个专利许可要求那些从你这儿直接或间接收到程序的人，不能再免费地发布，这就和本许可冲突了。为了避免这种问题，你唯一能做的，就是不发布该程序。（译者注：此即著名的“自由或死亡”条款，“Liberty or Death”）
 
-A contributor's “essential patent claims” are all patent claims owned or controlled by the contributor, whether already acquired or hereafter acquired, that would be infringed by some manner, permitted by this License, of making, using, or selling its contributor version, but do not include claims that would be infringed only as a consequence of further modification of the contributor version. For purposes of this definition, “control” includes the right to grant patent sublicenses in a manner consistent with the requirements of this License.
+不管在什么场景下，如果本条款的任何一部分不能执行或者被判定无效，其他部分也是有效的，且条款整体在其他场景下仍是有效的。
 
-Each contributor grants you a non-exclusive, worldwide, royalty-free patent license under the contributor's essential patent claims, to make, use, sell, offer for sale, import and otherwise run, modify and propagate the contents of its contributor version.
+本条的目的不是诱使你侵犯专利或知识产权，也不是让你去和别人争执更应该执行谁的条件，本条的唯一目的，就是保护GPL的完整性，而不是让它被支离破碎地执行，正是通过GPL的一致执行，很多人在相当广泛的软件领域里，做出了显著的贡献。
 
-In the following three paragraphs, a “patent license” is any express agreement or commitment, however denominated, not to enforce a patent (such as an express permission to practice a patent or covenant not to sue for patent infringement). To “grant” such a patent license to a party means to make such an agreement or commitment not to enforce a patent against the party.
+原创作者有权利使用其他协议发布他的作品，我们任何人不能强迫原创作者必须使用GPL协议。
 
-If you convey a covered work, knowingly relying on a patent license, and the Corresponding Source of the work is not available for anyone to copy, free of charge and under the terms of this License, through a publicly available network server or other readily accessible means, then you must either (1) cause the Corresponding Source to be so available, or (2) arrange to deprive yourself of the benefit of the patent license for this particular work, or (3) arrange, in a manner consistent with the requirements of this License, to extend the patent license to downstream recipients. “Knowingly relying” means you have actual knowledge that, but for the patent license, your conveying the covered work in a country, or your recipient's use of the covered work in a country, would infringe one or more identifiable patents in that country that you have reason to believe are valid.
+本条试图彻底解释清楚其他条款所带来的可能后果。
 
-If, pursuant to or in connection with a single transaction or arrangement, you convey, or propagate by procuring conveyance of, a covered work, and grant a patent license to some of the parties receiving the covered work authorizing them to use, propagate, modify or convey a specific copy of the covered work, then the patent license you grant is automatically extended to all recipients of the covered work and works based on it.
+\8. 如果在某些国家因为专利或版权的问题难以分发，那么版权所有人在分发时，可以对分发的地区加以明确限制，以排除那些国家。在这种情况下，这些限制不认为是对本协议的修改。（译者注：算一种例外吧。）
 
-A patent license is “discriminatory” if it does not include within the scope of its coverage, prohibits the exercise of, or is conditioned on the non-exercise of one or more of the rights that are specifically granted under this License. You may not convey a covered work if you are a party to an arrangement with a third party that is in the business of distributing software, under which you make payment to the third party based on the extent of your activity of conveying the work, and under which the third party grants, to any of the parties who would receive the covered work from you, a discriminatory patent license (a) in connection with copies of the covered work conveyed by you (or copies made from those copies), or (b) primarily for and in connection with specific products or compilations that contain the covered work, unless you entered into that arrangement, or that patent license was granted, prior to 28 March 2007.
+\9. FSF会不定时发布GPL的新版本，精神上应该不会大变，主要是细节上的变化，以及增加一些对新情况的规定。每一版都会有新的版本号，如果一个软件说使用“GPL 2.0 and later version”，这表示你可以用2.0，或者其后的某个版本，如果只说使用GPL 2 .0，那就只能用2.0，如果说使用GPL但没有指定版本号，那就可以任意选择一个FSF发布过的版本。
 
-Nothing in this License shall be construed as excluding or limiting any implied license or other defenses to infringement that may otherwise be available to you under applicable patent law.
+\10. 如果你希望将本程序的一部分纳入采用其他许可证的自由软件中（译者注：注意自由软件有很多许可证，比如MIT、Apache），你要征得本程序作者的书面同意。如果他同意，那就可以。如果本程序的版权归FSF，那你得问我们，一般来说，我们的作品以及衍生作品都必须要用GPL的，但是，我们有时候也同意一些例外。（译者注：决策权当然是在作者这里的，作者想用什么许可就用什么许可。）我们的决策主要考虑两个目标，一是保证自由软件的子子孙孙都是自由的，二是促进软件的普遍共享和复用。
 
-12. No Surrender of Others' Freedom.
-If conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot convey a covered work so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not convey it at all. For example, if you agree to terms that obligate you to collect a royalty for further conveying from those to whom you convey the Program, the only way you could satisfy both those terms and this License would be to refrain entirely from conveying the Program.
+无担保声明
 
-13. Use with the GNU Affero General Public License.
-Notwithstanding any other provision of this License, you have permission to link or combine any covered work with a work licensed under version 3 of the GNU Affero General Public License into a single combined work, and to convey the resulting work. The terms of this License will continue to apply to the part which is the covered work, but the special requirements of the GNU Affero General Public License, section 13, concerning interaction through a network will apply to the combination as such.
+\11. 由于本程序是免费提供的，所以在法律许可范围内，本程序是没有担保的。除非有书面说明。本程序是“AS IS”的，没有任何明示或暗示的保证，比如默认的适销性、适用性这些保证都没有，关于本程序的功能和性能导致的风险都由用户自己承担，**（你单位用我作品出了事，你可别想拉我当垫背的，大公司都不背这锅，你让我一个不挣你钱的背？）**如果我这作品真有缺陷，你自己想办法搞定，你可以花钱买服务，这种公司又不是没有。
 
-14. Revised Versions of this License.
-The Free Software Foundation may publish revised and/or new versions of the GNU General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.
-
-Each version is given a distinguishing version number. If the Program specifies that a certain numbered version of the GNU General Public License “or any later version” applies to it, you have the option of following the terms and conditions either of that numbered version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of the GNU General Public License, you may choose any version ever published by the Free Software Foundation.
-
-If the Program specifies that a proxy can decide which future versions of the GNU General Public License can be used, that proxy's public statement of acceptance of a version permanently authorizes you to choose that version for the Program.
-
-Later license versions may give you additional or different permissions. However, no additional obligations are imposed on any author or copyright holder as a result of your choosing to follow a later version.
-
-15. Disclaimer of Warranty.
-THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
-
-16. Limitation of Liability.
-IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MODIFIES AND/OR CONVEYS THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
-
-17. Interpretation of Sections 15 and 16.
-If the disclaimer of warranty and limitation of liability provided above cannot be given local legal effect according to their terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with the Program, unless a warranty or assumption of liability accompanies a copy of the Program in return for a fee.
-
-END OF TERMS AND CONDITIONS
-
-How to Apply These Terms to Your New Programs
-If you develop a new program, and you want it to be of the greatest possible use to the public, the best way to achieve this is to make it free software which everyone can redistribute and change under these terms.
-
-To do so, attach the following notices to the program. It is safest to attach them to the start of each source file to most effectively state the exclusion of warranty; and each file should have at least the “copyright” line and a pointer to where the full notice is found.
-
-    <one line to give the program's name and a brief idea of what it does.>
-    Copyright (C) <year>  <name of author>
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-Also add information on how to contact you by electronic and paper mail.
-
-If the program does terminal interaction, make it output a short notice like this when it starts in an interactive mode:
-
-    <program>  Copyright (C) <year>  <name of author>
-    This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
-    This is free software, and you are welcome to redistribute it
-    under certain conditions; type `show c' for details.
-The hypothetical commands `show w' and `show c' should show the appropriate parts of the General Public License. Of course, your program's commands might be different; for a GUI interface, you would use an “about box”.
-
-You should also get your employer (if you work as a programmer) or school, if any, to sign a “copyright disclaimer” for the program, if necessary. For more information on this, and how to apply and follow the GNU GPL, see <https://www.gnu.org/licenses/>.
-
-The GNU General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License. But first, please read <https://www.gnu.org/licenses/why-not-lgpl.html>.
+\12. 除非是法律要求或者书面同意，否则在任何情况下，本程序的版权所有者，或者修改和重新发布本程序的其他人，都不会对你的任何损失负责，不管这个损失是一般的还是特殊的，不管是偶然的还是间接的，不管是本程序自己的问题，还是因为你不会用导致的，不管是数据丢失还是数据不准确，不管是你导致的，还是其他人导致的，亦或是本程序和其他程序共同导致的。即便版权所有者或修改人已经被告知有危险，他们也不会对此负责。总之一句话，出事了你自己兜着。
